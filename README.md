@@ -1,7 +1,7 @@
 # Notes on installing Kali Linux in WSL2 including KDE Plasma GUI, Docker, Nvidia GPU and CUDA
 
 ## Use case is for exploring WSL2 GUI capabilities for data science. Seems stable but some things aren't working in GUI such as audio and network management. 
-## Installation of other GUIs may be possible using similar methods (XFCE) but others don't presently work (Gnome and Cinnamon).
+## Installation of other GUIs may be possible using similar methods (KeX, XFCE) but others don't presently work (Gnome and Cinnamon).
 
 ## Installation takes 30 minutes on AMD 4800H notebook
 
