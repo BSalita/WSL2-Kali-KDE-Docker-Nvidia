@@ -49,6 +49,6 @@
 `exit`
 ## 13B) Reboot kali by shutting down kali and restarting
 `wsl -d kali-desktop --shutdown && wsl -d kali-desktop`
-## 13C) Within kali again start GUI. Assumes your presentation manager of choice (GWSL, vcxsrv or Remote Desktop (RDP)) is corrently installed. GUI will now be displayed by your presentation manager.
+## 13C) Within kali again start GUI. Assumes your presentation manager of choice (GWSL, vcxsrv or Remote Desktop (RDP)) is correctly installed and running. GUI will now be displayed by your presentation manager.
 `startplasma-x11`
 
