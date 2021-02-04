@@ -49,6 +49,6 @@
 `exit`
 ## 13B) Reboot kali by shutting down kali and restarting
 `wsl -d kali-desktop --shutdown && wsl -d kali-desktop`
-## 13C) Within kali again, start plasma
+## 13C) Within kali again, start plasma. GUI should not be displayed in presentation manager of choice (GWSL, vcxsrv or RDP).
 `startplasma-x11`
 
