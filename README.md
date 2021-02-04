@@ -6,7 +6,7 @@
 
 wsl --install -d kali-linux
 
-## Step 2) On Windows: (optional) install Docker for Desktop (Docker Desktop Installer)
+## Step 2) On Windows: install Docker for Desktop from https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ## Step 3) Install one of following presentation managers:
 ## 1) GWSL for Windows (XWindows manager) from Microsoft Store or https://github.com/Opticos/GWSL-Source
