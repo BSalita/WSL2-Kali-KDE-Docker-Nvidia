@@ -1,4 +1,4 @@
-# Notes on installing Kali Linux in WSL2 including KDE Plasma, Docker, Nvidia GPU and CUDA
+# Notes on installing Kali Linux in WSL2 including KDE Plasma GUI, Docker, Nvidia GPU and CUDA
 
 ## Installation takes 30 minutes on AMD 4800H notebook
 
