@@ -1,6 +1,6 @@
 # Notes on installing Kali Linux in WSL2 including KDE Plasma, Docker, Nvidia GPU and CUDA
 
-# On Windows: install Kali Linux in WSL2
+## On Windows: install Kali Linux in WSL2
 
 wsl --install -d kali-linux
 
