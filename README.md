@@ -4,7 +4,7 @@
 
 ## Installation takes 30 minutes on AMD 4800H notebook
 
-## Step 1) On Windows: install Kali Linux in WSL2
+## Step 1) On Windows: install Kali Linux in WSL2. Assumes WSL2 is already installed.
 
 `wsl --install -d kali-linux`
 
