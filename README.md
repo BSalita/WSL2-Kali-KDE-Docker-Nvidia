@@ -16,7 +16,7 @@ wsl --install -d kali-linux
 ## Install following software within Kali Linux
 
 ## Step 4) upgrade current distro
-sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y
+`sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y`
 
 ## Step 5) install nvidia gpu drivers and CUDA software
 sudo apt install -y nvidia-driver nvidia-cuda-toolkit
@@ -37,7 +37,7 @@ docker run hello-world
 docker run --rm -it --gpus=all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
 
 ## Step 11) required for starting up xwindows
-sudo apt install dbus-x11
+sudo apt install -y dbus-x11
 
 ## Step 12) install desktop: kde-plasma-desktop (minimal), kde-standard (usuals), kde-full (lots). kali-desktop-kde is kde customized for kali distro.
 sudo apt install -y kali-desktop-kde
