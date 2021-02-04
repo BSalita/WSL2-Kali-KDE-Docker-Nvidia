@@ -44,10 +44,8 @@
 ## Step 12) install desktop: kde-plasma-desktop (minimal), kde-standard (usuals), kde-full (lots). kali-desktop-kde is kde customized for kali distro.
 `sudo apt install -y kali-desktop-kde`
 
-## Step 11) start KDE Plasma desktop manager
-## if kde was just install, might be best to restart wsl
-## 1) in Windows, do "wsl -d kali-desktop --shutdown"
-## 2) in Windows, do "wsl -d kali-desktop"
-## Put startplasma-x11 in startup file?
+## Step 11) start KDE Plasma desktop manager. if kde was just install, might be best to restart wsl
+## 11A) `exit` Kali Linux to Windows prompt
+## 11B) in Windows: `wsl -d kali-desktop --shutdown && wsl -d kali-desktop`
 `startplasma-x11`
 
