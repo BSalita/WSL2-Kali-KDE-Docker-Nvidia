@@ -45,7 +45,10 @@
 `sudo apt install -y kali-desktop-kde`
 
 ## Step 13) start KDE Plasma desktop manager. if kde was just install, might be best to restart wsl
-## 13A) `exit` Kali Linux to Windows prompt
-## 13B) in Windows: `wsl -d kali-desktop --shutdown && wsl -d kali-desktop`
+## 13A) Exit Kali Linux dropping back into Windows prompt
+`exit`
+## 13B) Reboot kali by shutting down kali and restarting
+`wsl -d kali-desktop --shutdown && wsl -d kali-desktop`
+## 13C) Within kali again, start plasma
 `startplasma-x11`
 
