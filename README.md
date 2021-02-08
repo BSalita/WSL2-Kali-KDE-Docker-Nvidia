@@ -12,9 +12,10 @@
 ## Step 2) On Windows: install Docker for Desktop from https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ## Step 3) Install one of following presentation managers:
-## 1) GWSL for Windows (XWindows manager) from Microsoft Store or https://github.com/Opticos/GWSL-Source
-## 2) vcxsrv for Windows (XWindows manager) from https://sourceforge.net/projects/vcxsrv/
-## 3) `apt install xrdp` (on Linux) to use Windows RDP instead of XWindows manager. See https://github.com/neutrinolabs/xrdp
+## 1) Install NVidia for WSL Driver: https://developer.nvidia.com/cuda/wsl
+## 2) GWSL for Windows (XWindows manager) from Microsoft Store or https://github.com/Opticos/GWSL-Source
+## 3) vcxsrv for Windows (XWindows manager) from https://sourceforge.net/projects/vcxsrv/
+## 4) `apt install xrdp` (on Linux) to use Windows RDP instead of XWindows manager. See https://github.com/neutrinolabs/xrdp
 
 ## Install following software within Kali Linux
 
