@@ -45,6 +45,7 @@
 `sudo apt install -y dbus-x11`
 
 ## Step 12) install desktop: kde-plasma-desktop (minimal), kde-standard (usuals), kde-full (lots). kali-desktop-kde is kde customized for kali distro.
+## Use --no-install-recommends to disable inclusion of any extra packages.
 `sudo apt install -y kali-desktop-kde --no-install-recommends`
 
 ## Step 13) start KDE Plasma desktop manager. if kde was just installed, might need to restart kali.
