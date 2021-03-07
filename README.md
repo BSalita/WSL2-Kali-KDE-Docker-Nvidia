@@ -10,14 +10,14 @@
 `wsl --install -d kali-linux`
 
 ## Step 2) On Windows:
-## 1) Install NVidia for WSL Driver: https://developer.nvidia.com/cuda/wsl
+## 2.1) Install NVidia for WSL Driver: https://developer.nvidia.com/cuda/wsl
 ## Following steps are optional. Only needed if CUDA and CUDNN are wanted:
-### 1.1) Install Nvidia CUDA Tookit. See: https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
-### 1.2) Install CUDNN. See: https://medium.com/analytics-vidhya/installing-cudnn-for-gpu-support-with-tensorflow-on-windows-10-aff10c6c9929
-### 1.3) Verify GPU is accessible from python: `python -c "import tensorflow as tf; tf.config.list_physical_devices('GPU')"`
-### 1.4) If cudart64_101.dll is missing. see: https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
-### 1.5) If missing Dlls are reported: see: https://github.com/tensorflow/tensorflow/issues/44291
-## 2) Install Docker for Desktop from https://hub.docker.com/editions/community/docker-ce-desktop-windows
+### 2.1.1) Install Nvidia CUDA Tookit. See: https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
+### 2.1.2) Install CUDNN. See: https://medium.com/analytics-vidhya/installing-cudnn-for-gpu-support-with-tensorflow-on-windows-10-aff10c6c9929
+### 2.1.3) Verify GPU is accessible from python: `python -c "import tensorflow as tf; tf.config.list_physical_devices('GPU')"`
+### 2.1.4) If cudart64_101.dll is missing. see: https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
+### 2.1.5) If missing Dlls are reported: see: https://github.com/tensorflow/tensorflow/issues/44291
+## 2.2) Install Docker for Desktop from https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ## Step 3) Install one of following presentation managers:
 ## 3.1) GWSL for Windows (XWindows manager) from Microsoft Store or https://github.com/Opticos/GWSL-Source
