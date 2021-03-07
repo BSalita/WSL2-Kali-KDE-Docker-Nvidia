@@ -11,11 +11,12 @@
 
 ## Step 2) On Windows:
 ## 1) Install NVidia for WSL Driver: https://developer.nvidia.com/cuda/wsl
-## 1A) Optionally install Nvidia CUDA Tookit. See: https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
-## 1B) Optionally install CUDNN. See: https://medium.com/analytics-vidhya/installing-cudnn-for-gpu-support-with-tensorflow-on-windows-10-aff10c6c9929
-## 1C) Execute `python -c "import tensorflow as tf; tf.config.list_physical_devices('GPU')"`
-## 1C) If cudart64_101.dll is missing. see: https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
-## 1D) If missing Dlls are reported: see: https://github.com/tensorflow/tensorflow/issues/44291
+## Following steps (1A-1E) are optional:
+### 1A) Install Nvidia CUDA Tookit. See: https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
+### 1B) Install CUDNN. See: https://medium.com/analytics-vidhya/installing-cudnn-for-gpu-support-with-tensorflow-on-windows-10-aff10c6c9929
+### 1C) Verify GPU is accessible from python: `python -c "import tensorflow as tf; tf.config.list_physical_devices('GPU')"`
+### 1D) If cudart64_101.dll is missing. see: https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
+### 1E) If missing Dlls are reported: see: https://github.com/tensorflow/tensorflow/issues/44291
 ## 2) Install Docker for Desktop from https://hub.docker.com/editions/community/docker-ce-desktop-windows
 
 ## Step 3) Install one of following presentation managers:
